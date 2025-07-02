@@ -1,7 +1,10 @@
 {
     "cors":{
         "enabled": true,
-        "allowedOrigins": ["https://apply-bridge-frontend.vercel.app, localhost:5173"]
+        "allowedOrigins": ["https://apply-bridge-frontend.vercel.app, localhost:5173"],
+        "allowedMethods":["*"],
+        "allowCredentials":true
+    
 
 
     }
